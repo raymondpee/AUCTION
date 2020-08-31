@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # auth0_services
 =======
 <p align="center">
@@ -85,3 +86,22 @@ functions:
 
 If everything was set up correctly, all incoming requests to your `someFunction` Lambda will first be authorized. You can find the JWT claims at `event.requestContext.authorizer`.
 >>>>>>> First commit
+=======
+# Codingly.io: Base Serverless Framework Template
+
+https://codingly.io
+
+## What's included
+* Folder structure used consistently across our projects.
+* [serverless-pseudo-parameters plugin](https://www.npmjs.com/package/serverless-pseudo-parameters): Allows you to take advantage of CloudFormation Pseudo Parameters.
+* [serverless-bundle plugin](https://www.npmjs.com/package/serverless-pseudo-parameters): Bundler based on the serverless-webpack plugin - requires zero configuration and fully compatible with ES6/ES7 features.
+
+## Getting started
+```
+sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-io/sls-base
+cd YOUR_PROJECT_NAME
+npm install
+```
+
+You are ready to go!
+>>>>>>> 2688b923040d7d5a41c193adc58be1b7b8b4c48c
